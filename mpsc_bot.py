@@ -87,4 +87,5 @@ def scrape_mpsc():
 if __name__ == "__main__":
     init_db()
     scrape_mpsc()
+send_telegram_alert("Test Notification: Bot setup successful!", "https://mpsc.gov.in")
 
